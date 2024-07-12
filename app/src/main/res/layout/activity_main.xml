@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  android:id="@+id/name"
+  android:hint="Enter Student Name"
+  android:textSize="20sp"/>
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/phone"
+      android:hint="Enter Student Phone"
+      android:textSize="20sp"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnadd"
+      android:textSize="25sp"
+      android:text="Add Studetn Detail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnview"
+        android:textSize="25sp"
+        android:text="View Studetn Detail"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:textSize="25sp"
+        android:text="Delete Studetn Detail"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btndeleteall"
+      android:textSize="25sp"
+      android:text="Delete All Studetn Detail"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnupdate"
+        android:textSize="25sp"
+        android:text="Update Studetn Detail"/>
+  <ListView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:id="@+id/listview"
+    android:background="@color/design_default_color_on_primary"/>
+
+
+</LinearLayout>
